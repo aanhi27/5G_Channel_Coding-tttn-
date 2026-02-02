@@ -15,9 +15,9 @@ Dự án được thiết kế để chạy trên Google Colab.
 3. Kết quả chính
 - Hiệu năng sửa lỗi (BER/BLER)
 Mã ngắn (N < 128): Polar Code vượt trội hơn LDPC đáng kể. Giải mã SCL-8 giúp Polar tiệm cận giới hạn tối ưu.
-Mã dài (N > 1000): LDPC chiếm ưu thế, đường cong lỗi dốc đứng (waterfall) và đạt được hiệu suất cao hơn khi tăng kích thước khối.
+Mã dài (N > 1000): LDPC tốt hơn , đường cong lỗi dốc đứng (waterfall) và đạt được hiệu suất cao hơn khi tăng kích thước khối.
 - Tính linh hoạt (Rate-Matching)
-Mã Polar 5G thể hiện khả năng thích ứng tuyệt vời với độ dài bit bất kỳ thông qua các kỹ thuật đục lỗ (Puncturing) và rút ngắn (Shortening).
+Mã Polar 5G thể hiện thích ứng với độ dài bit bất kỳ thông qua các kỹ thuật đục lỗ (Puncturing) và rút ngắn (Shortening).
 - Thông lượng & Độ phức tạp
 LDPC: Thông lượng ổn định, độ phức tạp tỷ lệ tuyến tính với độ dài mã, không phụ thuộc SNR.
 Polar Hybrid: Tốc độ giải mã tăng mạnh khi SNR tốt (do chỉ cần dùng giải mã SC đơn giản) và giảm khi SNR thấp (do phải kích hoạt SCL phức tạp).
