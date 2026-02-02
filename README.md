@@ -4,13 +4,13 @@ Dự án này thực hiện mô phỏng và so sánh chi tiết hiệu năng c�
 - So sánh hiệu năng: Đánh giá tỷ lệ lỗi bit (BER) và lỗi khối (BLER) của Polar và LDPC dưới các điều kiện SNR khác nhau.Phân tích độ dài khối: Làm rõ lý do 5G chọn Polar cho gói tin ngắn (Control Channel) và LDPC cho gói tin dài (Data Channel).
 - Đánh giá thuật toán: So sánh các thuật toán giải mã thực tế (BP, SCL) với giới hạn tối ưu lý thuyết (OSD/ML).
 - Khảo sát thông lượng: Phân tích sự đánh đổi giữa độ phức tạp tính toán và tốc độ giải mã.
-- 
+
 2. Cách cài đặt và chạy code
 Dự án được thiết kế để chạy trên Google Colab. 
-Mở file .ipynb trong Google Colab.
-Đảm bảo môi trường đã kích hoạt CPU (Runtime > Change runtime type > CPU)
-Cài đặt thư viện Sionna bằng lệnh:!pip install tensorflow sionna numpy matplotlib
-Chạy các cell theo thứ tự
+- Mở file .ipynb trong Google Colab.
+- Đảm bảo môi trường đã kích hoạt CPU (Runtime > Change runtime type > CPU)
+- Cài đặt thư viện Sionna bằng lệnh:!pip install tensorflow sionna numpy matplotlib
+- Chạy các cell theo thứ tự
 
 3. Kết quả chính
 - Hiệu năng sửa lỗi (BER/BLER)
